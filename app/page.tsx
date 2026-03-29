@@ -261,58 +261,42 @@ export default function Home() {
       </section>
 
       {/* --- SOSYAL MEDYA --- */}
-      <section className={`py-16 md:py-20 px-6 ${theme.ctaBg} relative overflow-hidden border-t border-white/5`}>
-        <div className="max-w-5xl mx-auto relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-            {/* Instagram 1 */}
-            <motion.a 
-              whileHover={{ scale: 1.02 }}
-              href="https://www.instagram.com/kutaysuofficial"
-              target="_blank"
-              className="bg-black/20 backdrop-blur-sm rounded-3xl p-8 flex items-center space-x-6 group border border-white/5 transition-colors hover:bg-black/30"
-            >
-              <div className={`${theme.ctaText} flex-shrink-0`}>
-                <svg className="w-10 h-10 md:w-12 md:h-12" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                </svg>
-              </div>
-              <div className="flex flex-col">
-                <span className={`text-base md:text-lg font-black tracking-tight uppercase ${theme.ctaText}`}>@kutaysuofficial</span>
-                <span className={`text-[9px] font-bold opacity-40 uppercase tracking-widest ${theme.ctaText}`}>Takip Et</span>
-              </div>
-            </motion.a>
-
-            {/* Instagram 2 */}
-            <motion.a 
-              whileHover={{ scale: 1.02 }}
-              href="https://www.instagram.com/service_hair_repair"
-              target="_blank"
-              className="bg-black/20 backdrop-blur-sm rounded-3xl p-8 flex items-center space-x-6 group border border-white/5 transition-colors hover:bg-black/30"
-            >
-              <div className={`${theme.ctaText} flex-shrink-0`}>
-                <svg className="w-10 h-10 md:w-12 md:h-12" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                </svg>
-              </div>
-              <div className="flex flex-col">
-                <span className={`text-base md:text-lg font-black tracking-tight uppercase ${theme.ctaText}`}>@service_hair_repair</span>
-                <span className={`text-[9px] font-bold opacity-40 uppercase tracking-widest ${theme.ctaText}`}>Çalışmalarımız</span>
-              </div>
-            </motion.a>
-          </div>
+      {/* --- SOSYAL MEDYA --- */}
+<section className={`py-16 md:py-20 px-6 ${theme.ctaBg} relative overflow-hidden border-t border-white/5`}>
+  <div className="max-w-xl mx-auto relative z-10"> {/* max-w-xl ile tek kutuyu daha derli toplu hale getirdik */}
+    <div className="flex justify-center">
+      {/* Müjde Güzellik Merkezi Instagram */}
+      <motion.a 
+        whileHover={{ scale: 1.02 }}
+        href="https://www.instagram.com/mujde_guzellik_merkezi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        target="_blank"
+        className="w-full bg-black/20 backdrop-blur-sm rounded-3xl p-8 flex items-center justify-center space-x-6 group border border-white/5 transition-colors hover:bg-black/30"
+      >
+        <div className={`${theme.ctaText} flex-shrink-0`}>
+          <svg className="w-10 h-10 md:w-12 md:h-12" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
         </div>
-      </section>
-
+        <div className="flex flex-col">
+          <span className={`text-base md:text-lg font-black tracking-tight uppercase ${theme.ctaText}`}>
+            @mujde_guzellik_merkezi
+          </span>
+          <span className={`text-[9px] font-bold opacity-40 uppercase tracking-widest ${theme.ctaText}`}>
+            Çalışmalarımızı Takip Edin
+          </span>
+        </div>
+      </motion.a>
+    </div>
+  </div>
+</section>
       {/* --- FOOTER --- */}
       <footer className={`${theme.footerBg} ${theme.footerText} py-20 px-8 border-t border-white/5`}>
         <div className="max-w-7xl mx-auto text-center md:text-left">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
             <div>
-              <span className="text-2xl font-black tracking-tighter uppercase block mb-4">{content.salon.shortName} Studio</span>
+              <span className="text-2xl font-black tracking-tighter uppercase block mb-4">{content.salon.shortName} Güzellik Merkezi</span>
               <p className="opacity-40 text-[10px] leading-relaxed max-w-[200px] mx-auto md:mx-0">{content.salon.location} <br />Modern değişim noktası.</p>
             </div>
             <div className="flex flex-col space-y-2">
@@ -324,7 +308,7 @@ export default function Home() {
             <div className="flex flex-col space-y-2">
               <h4 className="text-[10px] uppercase tracking-widest font-black opacity-30 mb-2">İletişim</h4>
               <a href={`tel:${content.salon.phone}`} className="text-xl font-black">{content.salon.phone}</a>
-              <a href="mailto:Kutaysuu@gmail.com" className="text-[10px] opacity-50 underline italic">Kutaysuu@gmail.com</a>
+              <a href="mailto:mervetosun@gmail.com" className="text-[10px] opacity-50 underline italic">mervetosun@gmail.com</a>
             </div>
           </div>
           <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-[8px] uppercase tracking-[0.4em] opacity-30">

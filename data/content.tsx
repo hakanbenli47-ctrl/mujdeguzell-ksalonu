@@ -1,12 +1,12 @@
 export const content = {
   salon: {
-  shortName: "Servıce",
-   name: "Haır Repaır Studıo",
-  slogan: "İzmir'in en güvenilir ve modern güzellik deneyimi.",
-  phone: "05070089022",       // sadece arama için
-  whatsapp: "905070089022",   // WhatsApp için
-  location: "İzmir Güzelbahçe – Türkiye",
-  copyright: "© Service Hair Repair Studio",
+  shortName: "Müjde",
+   name: "Güzellik Merkezi",
+  slogan: "Antalya'nın en güvenilir ve modern güzellik deneyimi.",
+  phone: "05357017817",       // sadece arama için
+  whatsapp: "905357017817",   // WhatsApp için
+  location: "Antalya Murtapaşa – Türkiye",
+  copyright: "© 2026 Müjde Güzellik merkezi",
 },
 
   links: {
@@ -88,10 +88,10 @@ export const content = {
   /* 3 ÇALIŞAN */
  ekip: [
   {
-    name: "Kutay Su",
+    name: "Müjde Tosun ",
     role: "İşletme Sahibi & Saç Tasarım Uzmanı",
     img: "/person1.jpg",  // public klasörüne ekle
-    bio: "Kutay Su, 13 yıldır saç tasarımı ve güzellik sektöründe uzmanlaşmış bir profesyoneldir. Modern teknikler ve kişiye özel çözümlerle müşterilerine eşsiz deneyimler sunar. İzmir’de birçok başarılı projeye imza atmış ve sektörde kendini kanıtlamış bir isimdir."
+    bio: "Müjde Tosun, 10 yıldır saç tasarımı ve güzellik sektöründe uzmanlaşmış bir profesyoneldir. Modern teknikler ve kişiye özel çözümlerle müşterilerine eşsiz deneyimler sunar. İzmir’de birçok başarılı projeye imza atmış ve sektörde kendini kanıtlamış bir isimdir."
   }
 ],
 
