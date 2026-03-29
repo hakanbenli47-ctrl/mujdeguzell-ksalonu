@@ -1,7 +1,7 @@
 export const content = {
   salon: {
   shortName: "Müjde ",
-   name: "Güzellik Merkezi",
+   name: "haır beauty",
   slogan: "Antalya'nın en güvenilir ve modern güzellik deneyimi.",
   phone: "05357017817",       // sadece arama için
   whatsapp: "905357017817",   // WhatsApp için
