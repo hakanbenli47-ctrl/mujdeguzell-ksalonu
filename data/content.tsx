@@ -1,6 +1,6 @@
 export const content = {
   salon: {
-  shortName: "Müjde",
+  shortName: "Müjde ",
    name: "Güzellik Merkezi",
   slogan: "Antalya'nın en güvenilir ve modern güzellik deneyimi.",
   phone: "05357017817",       // sadece arama için
@@ -91,7 +91,7 @@ export const content = {
     name: "Müjde Tosun ",
     role: "İşletme Sahibi & Saç Tasarım Uzmanı",
     img: "/person1.jpg",  // public klasörüne ekle
-    bio: "Müjde Tosun, 10 yıldır saç tasarımı ve güzellik sektöründe uzmanlaşmış bir profesyoneldir. Modern teknikler ve kişiye özel çözümlerle müşterilerine eşsiz deneyimler sunar. İzmir’de birçok başarılı projeye imza atmış ve sektörde kendini kanıtlamış bir isimdir."
+    bio: "Müjde Tosun, 10 yıldır saç tasarımı ve güzellik sektöründe uzmanlaşmış bir profesyoneldir. Modern teknikler ve kişiye özel çözümlerle müşterilerine eşsiz deneyimler sunar. Antalya’da birçok başarılı projeye imza atmış ve sektörde kendini kanıtlamış bir isimdir."
   }
 ],
 

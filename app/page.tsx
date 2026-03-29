@@ -253,6 +253,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16 border-b border-black/10 pb-16">
             <div className="md:col-span-2">
               <span className="text-3xl font-light tracking-widest uppercase block mb-6">{content.salon.shortName}</span>
+              <span className="text-3xl font-light tracking-widest uppercase block mb-6">{content.salon.name}</span>
               <p className="opacity-70 text-sm leading-relaxed max-w-sm font-light">
                 {content.salon.slogan} <br /> {content.salon.location}
               </p>
