@@ -13,6 +13,7 @@ export const content = {
     randevu: "/Servicehair",
   },
 
+  
   hero: {
     image: "/hero.jpg",
     buttonText: "Hemen Randevu Al",
