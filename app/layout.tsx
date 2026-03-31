@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Kuaför Randevu",
   description: "Online randevu sistemi",
+  verification: {
+    google: "TLHjx-jSOfjoRR44v2zHmQApVDQCL77GuHxu7ePl3z4"
+  }
 };
 
 export default function RootLayout({

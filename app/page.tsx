@@ -74,24 +74,29 @@ export default function Home() {
 
       {/* --- HERO SECTION (Ferah ve Şık) --- */}
       <section className="relative h-screen flex flex-col items-center justify-center text-center px-6 pt-20">
-        <motion.div 
-          variants={staggerContainer} 
-          initial="hidden" 
-          animate="show" 
-          className="max-w-4xl mx-auto z-10"
-        >
-          <motion.p variants={fadeInUp} className={`${theme.subtitle} text-xs md:text-sm uppercase tracking-[0.4em] mb-6 font-medium`}>
-            {content.salon.location}
-          </motion.p>
+       <motion.div 
+  variants={staggerContainer} 
+  initial="hidden" 
+  animate="show" 
+  className="max-w-4xl mx-auto z-10"
+>
+
+  <h1 className="hidden">
+    Antalya kadın kuaförü, saç kesimi, boya, ombre, gelin başı ve makyaj hizmetleri
+  </h1>
+
+  <motion.p variants={fadeInUp} className={`${theme.subtitle} text-xs md:text-sm uppercase tracking-[0.4em] mb-6 font-medium`}>
+    {content.salon.location}
+  </motion.p>
           
           <motion.h1 variants={fadeInUp} className={`${theme.title} text-5xl md:text-7xl lg:text-8xl font-light mb-6 tracking-tight leading-tight`}>
             Güzelliğinize <br />
             <span className="font-serif italic text-4xl md:text-6xl lg:text-7xl">Değer Katıyoruz</span>
           </motion.h1>
 
-          <motion.p variants={fadeInUp} className={`${theme.subtitle} max-w-2xl mx-auto text-base md:text-lg font-light leading-relaxed mb-10`}>
-            {content.salon.slogan}
-          </motion.p>
+          <motion.p className={`${theme.subtitle} max-w-2xl mx-auto text-base md:text-lg font-light leading-relaxed mb-10`}>
+  Antalya’da profesyonel saç kesimi, boya, ombre, gelin başı ve makyaj hizmetleri sunuyoruz. En iyi kuaför deneyimi için hemen randevu alın.
+</motion.p>
 
           <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={`tel:${content.salon.phone}`} className={`${theme.button} px-10 py-4 text-xs font-bold uppercase tracking-widest transition-transform hover:-translate-y-1`}>
