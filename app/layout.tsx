@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kuaför Randevu",
+  title: "Antalya Muratpaşa Kuaför Saç Kesimi, Ombre ve Boya|",
   description: "Online randevu sistemi",
   verification: {
     google: "TLHjx-jSOfjoRR44v2zHmQApVDQCL77GuHxu7ePl3z4"
